@@ -1,0 +1,20 @@
+body {
+  background-color: black;       /* fundo preto */
+  color: white;                  /* texto branco */
+  display: flex;                 /* centraliza */
+  flex-direction: column;        /* título e contador em coluna */
+  justify-content: center;       /* centraliza na vertical */
+  align-items: center;           /* centraliza na horizontal */
+  height: 100vh;                 /* ocupa toda a altura da tela */
+  margin: 0;                     /* remove espaçamento padrão */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#contador {
+  font-size: 3rem;               /* contador grande */
+  font-weight: bold;
+}
